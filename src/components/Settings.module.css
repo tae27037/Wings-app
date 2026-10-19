@@ -1,0 +1,51 @@
+/* .bar {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.bar select,
+.bar button {
+  height: 36px;
+  padding: 0 12px;
+  border-radius: var(--r-pill);
+  border: 1px solid var(--line);
+  background: var(--panel);
+}
+.bar button {
+  width: 36px;
+  padding: 0;
+  font-size: 16px;
+} */
+
+.bar {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.bar select,
+.bar button {
+  height: 36px;
+  border-radius: var(--r-pill);
+  border: 1px solid var(--line);
+  background-color: var(--panel);
+  color: var(--text);
+  font: inherit;
+}
+
+.bar select {
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 0 30px 0 20px; /* справа место под стрелку */
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none' stroke='%238a8296' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center; /* меньше число = стрелка ближе к краю */
+  background-size: 12px 8px;
+}
+
+.bar button {
+  width: 36px;
+  padding: 0;
+  font-size: 16px;
+}

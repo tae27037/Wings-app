@@ -1,0 +1,237 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(8, 7, 10, 0.7);
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  z-index: 50;
+  animation: fade 0.2s;
+}
+
+.modal {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: min(1000px, 100%);
+  max-height: 92vh;
+  overflow: auto;
+  background: var(--panel);
+  border-radius: 28px;
+  animation: pop 0.22s;
+}
+
+.close {
+  position: absolute;
+  right: 14px;
+  top: 10px;
+  z-index: 3;
+  background: none;
+  border: 0;
+  font-size: 28px;
+  color: var(--muted);
+}
+
+/* ---------- левая колонка: фото ---------- */
+.art {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  padding: 16px;
+}
+
+.stage {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  border-radius: var(--r-md);
+  overflow: hidden;
+  background: var(--panel-2);
+  cursor: crosshair;
+  touch-action: pan-y;
+}
+
+/* фото на всю ширину рамки, обрезается только низ, верх всегда виден */
+.stage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  user-select: none;
+}
+
+.fallback {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.lens {
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 0;
+  background: var(--glass);
+  backdrop-filter: blur(8px);
+  font-size: 22px;
+  line-height: 1;
+}
+.prev {
+  left: 10px;
+}
+.next {
+  right: 10px;
+}
+
+.thumbs {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  padding: 4px;
+  border-radius: var(--r-pill);
+  background: var(--panel-2);
+  justify-self: center;
+}
+.thumbs button {
+  padding: 7px 18px;
+  border: 0;
+  border-radius: var(--r-pill);
+  background: transparent;
+}
+.thumbs .on {
+  background: var(--accent);
+  color: var(--on-accent);
+  font-weight: 600;
+}
+
+.hint {
+  color: var(--muted);
+  font-size: 12px;
+  text-align: center;
+}
+
+/* ---------- правая колонка: описание ---------- */
+.info {
+  padding: 32px;
+  display: grid;
+  gap: 10px;
+  align-content: start;
+}
+.info h2 {
+  font: 500 32px var(--font-display);
+}
+.sub {
+  color: var(--muted);
+}
+.desc {
+  color: var(--muted);
+  line-height: 1.6;
+}
+.stars {
+  color: var(--accent);
+  letter-spacing: 1px;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px 16px;
+  font-size: 14px;
+}
+dt {
+  color: var(--muted);
+}
+dd {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+dd i {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+}
+
+.price {
+  font-size: 24px;
+  margin-top: 6px;
+}
+.cta {
+  padding: 14px;
+  border-radius: var(--r-pill);
+  border: 0;
+  background: var(--accent);
+  color: var(--on-accent);
+  font-weight: 600;
+}
+.note {
+  color: var(--muted);
+  font-size: 13px;
+  text-align: center;
+}
+
+/* ---------- отзывы ---------- */
+.reviews {
+  grid-column: 1 / -1;
+  padding: 24px 32px 32px;
+  border-top: 1px solid var(--line);
+  display: grid;
+  gap: 14px;
+}
+.reviews h3 {
+  font: 500 22px var(--font-display);
+}
+.review {
+  background: var(--panel-2);
+  border-radius: var(--r-md);
+  padding: 14px 16px;
+  display: grid;
+  gap: 4px;
+}
+.review header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.review time {
+  color: var(--muted);
+  font-size: 13px;
+  margin-left: auto;
+}
+.review small {
+  color: var(--ok);
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes pop {
+  from {
+    transform: scale(0.96);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .modal {
+    grid-template-columns: 1fr;
+  }
+}

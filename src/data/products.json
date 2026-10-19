@@ -1,0 +1,732 @@
+[
+  {
+    "id": 1,
+    "name": "Aurora",
+    "length": "long",
+    "material": "synthetic",
+    "hex": "#b5532e",
+    "dark": "#7e3416",
+    "price": 2990,
+    "image": "/images/wigs/long-red-front.jpg",
+    "color": {
+      "cs": "Měděná zrzavá",
+      "en": "Copper red"
+    },
+    "cap": "wefted",
+    "density": "120 %",
+    "weight": "160 g",
+    "hairLength": "40 cm",
+    "desc": {
+      "cs": "Živá měděná barva s polodlouhým střihem. Lehká paruka z termovlákna drží tvar i po umytí a je ihned připravená k nošení.",
+      "en": "A vivid copper shade in a layered, shoulder-length cut. The lightweight heat-friendly fibre holds its shape after washing and is ready to wear."
+    },
+    "category": "women",
+    "images": ["/images/wigs/long-red-front.jpg", "/images/wigs/long-red.jpg"]
+  },
+
+  {
+    "id": 2,
+    "name": "Camille",
+    "length": "bob",
+    "material": "human",
+    "hex": "#a9845a",
+    "dark": "#7a5c3a",
+    "price": 13500,
+    "image": "/public/images/wigs/fair-short-front.jpg",
+    "color": {
+      "cs": "Teplá světle hnědá",
+      "en": "Warm light brown"
+    },
+    "cap": "lace",
+    "density": "130 %",
+    "weight": "90 g",
+    "hairLength": "32 cm",
+    "desc": {
+      "cs": "Teplý světle hnědý bob s jemnými melíry. Přirozeně vypadající lace front se hodí jak do kanceláře, tak na večer.",
+      "en": "A warm light-brown bob with subtle highlights. The natural-looking lace front suits both the office and the evening out."
+    },
+    "category": "women",
+    "images": [
+      "/public/images/wigs/fair-short-front.jpg",
+      "/public/images/wigs/fair-short.jpg"
+    ]
+  },
+
+  {
+    "id": 3,
+    "name": "Sylvia",
+    "length": "bob",
+    "material": "human",
+    "hex": "#d9cbb4",
+    "dark": "#a8977a",
+    "price": 12900,
+    "tag": "hit",
+    "image": "/public/images/wigs/brown-middle-front.jpg",
+    "color": {
+      "cs": "Mléčná čokoláda",
+      "en": "Ash blonde"
+    },
+    "cap": "lace",
+    "density": "130 %",
+    "weight": "85 g",
+    "hairLength": "30 cm",
+    "desc": {
+      "cs": "Středně dlouhá paruka typu bob z pravých evropských vlasů v lahodném odstínu mléčné čokolády. Hladký sestříhaný střih s jemnou ofinou krásně rámuje obličej a působí nadčasově. Diskrétní lace front zajišťuje zcela přirozený vzhled linie vlasů.",
+      "en": "Medium-length bob wig made from real European hair in a delicious milk chocolate shade. The sleek layered cut with soft bangs beautifully frames the face and offers a timeless appeal. The discreet lace front ensures a completely natural hairline appearance."
+    },
+    "category": "women",
+    "images": [
+      "/public/images/wigs/brown-middle-front.jpg",
+      "/public/images/wigs/brown-midle.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Noelle",
+    "length": "long",
+    "material": "human",
+    "hex": "#4a2f27",
+    "dark": "#2a1814",
+    "price": 16900,
+    "tag": "new",
+    "image": "/public/images/wigs/curly-brown-front.jpg",
+    "color": {
+      "cs": "Tmavá čokoláda",
+      "en": "Dark chocolate"
+    },
+    "cap": "mono",
+    "density": "150 %",
+    "weight": "140 g",
+    "hairLength": "55 cm",
+    "desc": {
+      "cs": "Dlouhé vlnité vlasy v hluboké čokoládové barvě. Monofilamentová základna dovoluje změnit pěšinku a je příjemná i při celodenním nošení.",
+      "en": "Long, soft waves in a deep chocolate shade. The monofilament cap lets you change the parting and stays comfortable all day."
+    },
+    "category": "women",
+    "images": [
+      "/public/images/wigs/curly-brown-front.jpg",
+      "/public/images/wigs/curly-brown.jpg"
+    ]
+  },
+
+  {
+    "id": 5,
+    "name": "Mira",
+    "length": "long",
+    "material": "synthetic",
+    "hex": "#efe8dc",
+    "dark": "#c4b9a5",
+    "price": 3290,
+    "image": "/public/images/wigs/blond-long-front.jpg",
+    "color": {
+      "cs": "Platinová",
+      "en": "Platinum"
+    },
+    "cap": "lace",
+    "density": "130 %",
+    "weight": "190 g",
+    "hairLength": "60 cm",
+    "desc": {
+      "cs": "Dlouhá platinová paruka z pravých evropských vlasů v zářivém a moderním světlém odstínu. Diskrétní lace front zajišťuje zcela přirozený přechod a neviditelnou linii čela. Jemné, splývavé vlnité prameny dodávají účesu luxusní a nadčasový vzhled.",
+      "en": "Long platinum wig made from real European hair in a radiant, modern light shade. The discreet lace front ensures a completely natural transition and an invisible hairline. Soft, cascading wavy strands give the hairstyle a luxurious and timeless look."
+    },
+    "category": "women",
+    "images": [
+      "/public/images/wigs/blond-long-front.jpg",
+      "/public/images/wigs/blond-long.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Lauren",
+    "length": "bob",
+    "material": "synthetic",
+    "hex": "#1f1b22",
+    "dark": "#0d0b10",
+    "price": 2190,
+    "tag": "hit",
+    "image": "/public/images/wigs/brunete-middle-front.jpg",
+    "color": {
+      "cs": "Uhlově černá",
+      "en": "Jet black"
+    },
+    "cap": "wefted",
+    "density": "120 %",
+    "weight": "110 g",
+    "hairLength": "28 cm",
+    "desc": {
+      "cs": "Výrazný uhlově černý bob s ofinou. Nenáročná praktická paruka na každý den, která nevyžaduje stylování.",
+      "en": "A bold jet-black bob with a fringe. An easy everyday wig that needs no styling."
+    },
+    "category": "women",
+    "images": [
+      "/public/images/wigs/brunete-middle-front.jpg",
+      "/public/images/wigs/brunete-middle.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Bernard",
+    "length": "mid",
+    "material": "human",
+    "hex": "#3b2e27",
+    "dark": "#52301f",
+    "price": 14900,
+    "image": "/public/images/wigs/man-dark-1-front.jpg",
+    "color": {
+      "cs": "Uhlově černá",
+      "en": "Jet black"
+    },
+    "cap": "mono",
+    "density": "140 %",
+    "weight": "120 g",
+    "hairLength": "45 cm",
+    "desc": {
+      "cs": "Černé polodlouhé vlasy s lehkými vlnami. Pravé vlasy snesou barvení i stylování a s péčí vydrží i několik let.",
+      "en": "Black shoulder-length hair with soft waves. Real hair can be coloured and styled, and with care lasts for years."
+    },
+    "category": "men",
+    "images": [
+      "/public/images/wigs/man-dark-1-front.jpg",
+      "/public/images/wigs/man-dark-1.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Faye",
+    "length": "short",
+    "material": "synthetic",
+    "hex": "#e5a0b4",
+    "dark": "#b9677f",
+    "price": 3490,
+    "tag": "new",
+    "image": "/public/images/wigs/pink-short-front.jpg",
+    "color": {
+      "cs": "Růžový křemen",
+      "en": "Rose quartz"
+    },
+    "cap": "lace",
+    "density": "130 %",
+    "weight": "180 g",
+    "hairLength": "60 cm",
+    "desc": {
+      "cs": "Dlouhé vlasy v odstínu růžového křemene pro odvážné obleky i cosplay. Barva je stálá a nevybledne po opakovaném praní.",
+      "en": "Long hair in rose quartz for bold looks and cosplay. The colour is stable and does not fade after repeated washing."
+    },
+    "category": "women",
+    "images": [
+      "/public/images/wigs/pink-short-front.jpg",
+      "/public/images/wigs/pink-short.jpg"
+    ]
+  },
+
+  {
+    "id": 9,
+    "name": "Adrian",
+    "category": "men",
+    "length": "short",
+    "material": "human",
+    "hex": "#3b2e27",
+    "dark": "#1f1612",
+    "price": 9900,
+    "image": "/public/images/wigs/man-dark-2-front.jpg",
+    "images": [
+      "/public/images/wigs/man-dark-2-front.jpg",
+      "/public/images/wigs/man-dark-2.jpg"
+    ],
+    "color": {
+      "cs": "Uhlově černá",
+      "en": "Dark brown"
+    },
+    "cap": "mono",
+    "density": "110 %",
+    "weight": "70 g",
+    "hairLength": "6 cm",
+    "desc": {
+      "cs": "Krátký pánský účes z pravých vlasů s přirozeným přechodem na spáncích. Tenká základna sedí těsně a nenápadně.",
+      "en": "A short men's cut in real hair with a natural fade at the temples. The thin base sits close and discreet."
+    },
+    "tag": "new"
+  },
+  {
+    "id": 10,
+    "name": "Damian",
+    "category": "men",
+    "length": "short",
+    "material": "synthetic",
+    "hex": "#8d8d92",
+    "dark": "#5f5f66",
+    "price": 3490,
+    "image": "/public/images/wigs/man-blond-3-front.jpg",
+    "images": [
+      "/public/images/wigs/man-blond-3-front.jpg",
+      "/public/images/wigs/man-blond-3.jpg"
+    ],
+    "color": {
+      "cs": "Stříbrošedá",
+      "en": "Silver grey"
+    },
+    "cap": "lace",
+    "density": "110 %",
+    "weight": "80 g",
+    "hairLength": "7 cm",
+    "desc": {
+      "cs": "Moderní krátký střih ve stříbrošedé barvě. Lehká paruka z termovlákna, kterou lze nosit hned po vybalení.",
+      "en": "A modern short cut in silver grey. A lightweight heat-friendly wig, ready to wear straight out of the box."
+    }
+  },
+  {
+    "id": 11,
+    "name": "Lily",
+    "category": "kids",
+    "length": "mid",
+    "material": "synthetic",
+    "hex": "#c89a6a",
+    "dark": "#9a6f45",
+    "price": 4290,
+    "image": "/public/images/wigs/child-1-front.jpg",
+    "images": [
+      "/public/images/wigs/child-1-front.jpg",
+      "/public/images/wigs/child-1.jpg"
+    ],
+    "color": {
+      "cs": "Medově hnědá",
+      "en": "Honey brown"
+    },
+    "cap": "soft",
+    "density": "100 %",
+    "weight": "95 g",
+    "hairLength": "30 cm",
+    "desc": {
+      "cs": "Elegantní dlouhá paruka z pravých evropských vlasů v medově hnědém odstínu s propracovaným copem. Kvalitní zpracování a přirozený přechod v oblasti čela zaručují maximálně realistický vzhled. Romantický cop dodává účesu sofistikovaný a upravený nádech pro každou příležitost.",
+      "en": "Elegant long wig made from real European hair in a honey brown shade featuring an intricate braid. Premium craftsmanship and a natural hairline transition guarantee a maximally realistic look. The romantic braid gives the hairstyle a sophisticated and polished touch for any occasion."
+    },
+    "tag": "hit"
+  },
+  {
+    "id": 12,
+    "name": "Max",
+    "category": "kids",
+    "length": "short",
+    "material": "synthetic",
+    "hex": "#5a3d2b",
+    "dark": "#36241a",
+    "price": 3790,
+    "image": "/public/images/wigs/child-3-front.jpg",
+    "images": [
+      "/public/images/wigs/child-3-front.jpg",
+      "/public/images/wigs/child-3.jpg"
+    ],
+    "color": {
+      "cs": "Hnědá",
+      "en": "Brown"
+    },
+    "cap": "soft",
+    "density": "100 %",
+    "weight": "70 g",
+    "hairLength": "8 cm",
+    "desc": {
+      "cs": "Lehký krátký střih pro kluky. Nastavitelné suché zipy a měkká podšívka drží paruku pohodlně i při hraní.",
+      "en": "A light short cut for boys. Adjustable hook-and-loop straps and a soft lining keep the wig comfortable during play."
+    }
+  },
+
+  {
+    "id": 13,
+    "name": "Amélie",
+    "length": "long",
+    "material": "human",
+    "hex": "#d8b58a",
+    "dark": "#a8875f",
+    "price": 14900,
+    "image": "/public/images/wigs/curly-fair-front.jpg",
+    "color": {
+      "cs": "Přirozená blond",
+      "en": "Natural blonde"
+    },
+    "cap": "lace",
+    "density": "150 %",
+    "weight": "130 g",
+    "hairLength": "55 cm",
+    "desc": {
+      "cs": "Dlouhá kudrnatá blond paruka z pravých evropských vlasů v jemném přirozeném odstínu. Jemná lace front vytváří přirozenou linii čela a nenápadně splývá s pletí. Objemné kudrliny dodávají vzhledu ženský a elegantní nádech.",
+      "en": "Long curly blonde wig made from real European hair in a soft, natural blonde shade. The delicate lace front creates a realistic hairline and blends seamlessly with the skin. Voluminous curls add a feminine and elegant touch to the look."
+    },
+    "category": "women",
+    "images": [
+      "/public/images/wigs/curly-fair-front.jpg",
+      "/public/images/wigs/curly-fair.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Tom",
+    "category": "men",
+    "length": "short",
+    "material": "human",
+    "hex": "#efe8dc",
+    "dark": "#1f1612",
+    "price": 9900,
+    "image": "/public/images/wigs/man-blond-4-front.jpg",
+    "images": [
+      "/public/images/wigs/man-blond-4-front.jpg",
+      "/public/images/wigs/man-blond-4.jpg"
+    ],
+    "color": {
+      "cs": "Platinová",
+      "en": "Platinum"
+    },
+    "cap": "mono",
+    "density": "110 %",
+    "weight": "70 g",
+    "hairLength": "6 cm",
+    "desc": {
+      "cs": "Krátký pánský účes z pravých vlasů s přirozeným přechodem na spáncích. Tenká základna sedí těsně a nenápadně.",
+      "en": "A short men's cut in real hair with a natural fade at the temples. The thin base sits close and discreet."
+    },
+    "tag": "new"
+  },
+
+  {
+    "id": 15,
+    "name": "Sony",
+    "category": "kids",
+    "length": "bob",
+    "material": "synthetic",
+    "hex": "#c89a6a",
+    "dark": "#9a6f45",
+    "price": 4290,
+    "image": "/public/images/wigs/child-2-front.jpg",
+    "images": [
+      "/public/images/wigs/child-2-front.jpg",
+      "/public/images/wigs/child-2.jpg"
+    ],
+    "color": {
+      "cs": "Medová blond",
+      "en": "Honey blond"
+    },
+    "cap": "soft",
+    "density": "100 %",
+    "weight": "95 g",
+    "hairLength": "30 cm",
+    "desc": {
+      "cs": "Měkká paruka pro děti po léčbě nebo s vypadáváním vlasů. Bavlněná podšívka bez švů je šetrná k citlivé pokožce.",
+      "en": "A soft wig for children after treatment or with hair loss. The seam-free cotton lining is gentle on sensitive skin."
+    },
+    "tag": "hit"
+  },
+
+  {
+    "id": 16,
+    "name": "Sam",
+    "category": "men",
+    "length": "mid",
+    "material": "human",
+    "hex": "#efe8dc",
+    "dark": "#1f1612",
+    "price": 9900,
+    "image": "/public/images/wigs/man-blond-5-front.jpg",
+    "images": [
+      "/public/images/wigs/man-blond-5-front.jpg",
+      "/public/images/wigs/man-blond-5.jpg"
+    ],
+    "color": {
+      "cs": "Studená blond",
+      "en": "Cool blond"
+    },
+    "cap": "mono",
+    "density": "110 %",
+    "weight": "70 g",
+    "hairLength": "6 cm",
+    "desc": {
+      "cs": "Krátký pánský účes z pravých vlasů s přirozeným přechodem na spáncích. Tenká základna sedí těsně a nenápadně.",
+      "en": "A short men's cut in real hair with a natural fade at the temples. The thin base sits close and discreet."
+    },
+    "tag": "new"
+  },
+
+  {
+    "id": 17,
+    "name": "Jake",
+    "category": "men",
+    "length": "short",
+    "material": "human",
+    "hex": "#3b2e27",
+    "dark": "#1f1612",
+    "price": 9900,
+    "image": "/public/images/wigs/man-curly-6-frontjpg.jpg",
+    "images": [
+      "/public/images/wigs/man-curly-6-frontjpg.jpg",
+      "/public/images/wigs/man-curly-6.jpg"
+    ],
+    "color": {
+      "cs": "Tmavě hnědá",
+      "en": "Dark brown"
+    },
+    "cap": "mono",
+    "density": "110 %",
+    "weight": "70 g",
+    "hairLength": "6 cm",
+    "desc": {
+      "cs": "Krátký pánský účes z pravých vlasů s přirozeným přechodem na spáncích. Tenká základna sedí těsně a nenápadně.",
+      "en": "A short men's cut in real hair with a natural fade at the temples. The thin base sits close and discreet."
+    },
+    "tag": "new"
+  },
+
+  {
+    "id": 18,
+    "name": "Mark",
+    "category": "men",
+    "length": "short",
+    "material": "human",
+    "hex": "#3b2e27",
+    "dark": "#1f1612",
+    "price": 9900,
+    "image": "/public/images/wigs/man-dark-7-front.jpg",
+    "images": [
+      "/public/images/wigs/man-dark-7-front.jpg",
+      "/public/images/wigs/man-dark-7.jpg"
+    ],
+    "color": {
+      "cs": "Tmavě hnědá",
+      "en": "Dark brown"
+    },
+    "cap": "mono",
+    "density": "110 %",
+    "weight": "70 g",
+    "hairLength": "6 cm",
+    "desc": {
+      "cs": "Krátký pánský účes z pravých vlasů s přirozeným přechodem na spáncích. Tenká základna sedí těsně a nenápadně.",
+      "en": "A short men's cut in real hair with a natural fade at the temples. The thin base sits close and discreet."
+    },
+    "tag": "new"
+  },
+
+  {
+    "id": 19,
+    "name": "Kate",
+    "length": "mid",
+    "material": "human",
+    "hex": "#d8b58a",
+    "dark": "#a8875f",
+    "price": 14900,
+    "image": "/public/images/wigs/bob-blond-front.jpg",
+    "color": {
+      "cs": "Přirozená blond",
+      "en": "Natural blonde"
+    },
+    "cap": "lace",
+    "density": "150 %",
+    "weight": "130 g",
+    "hairLength": "55 cm",
+    "desc": {
+      "cs": "Středně dlouhá paruka typu bob z pravých evropských vlasů v přirozeném blond odstínu. Rovný, elegantní střih s pěšinkou uprostřed působí velmi moderně a svěže. Diskrétní lace front zajišťuje naprosto přirozený vzhled v oblasti čela.",
+      "en": "Medium-length bob wig made from real European hair in a natural blonde shade. The straight, sleek cut with a center parting looks very modern and fresh. The discreet lace front ensures an entirely natural appearance around the hairline."
+    },
+    "category": "women",
+    "images": [
+      "/public/images/wigs/bob-blond-front.jpg",
+      "/public/images/wigs/bob-blond.jpg"
+    ]
+  },
+
+  {
+    "id": 20,
+    "name": "Poly",
+    "category": "kids",
+    "length": "mid",
+    "material": "synthetic",
+    "hex": "#c89a6a",
+    "dark": "#9a6f45",
+    "price": 4290,
+    "image": "/public/images/wigs/child-4-front.jpg",
+    "images": [
+      "/public/images/wigs/child-4-front.jpg",
+      "/public/images/wigs/child-4.jpg"
+    ],
+    "color": {
+      "cs": "Kreativní",
+      "en": "Creative"
+    },
+    "cap": "soft",
+    "density": "100 %",
+    "weight": "95 g",
+    "hairLength": "30 cm",
+    "desc": {
+      "cs": "Středně dlouhá paruka z pravých evropských vlasů s hravými a stylovými barevnými prameny v kreativním designu. Kvalitní zpracování a jemná lace front zaručují realistický vzhled a pohodlí. Ideální volba pro ty, kteří chtějí vyjádřit svou osobitost.",
+      "en": "Medium-length wig made from real European hair featuring playful and stylish colorful strands in a creative design. Quality craftsmanship and a delicate lace front guarantee a realistic look and comfort. An ideal choice for those who want to express their individuality."
+    },
+    "tag": "hit"
+  },
+
+  {
+    "id": 21,
+    "name": "Sara",
+    "length": "bob",
+    "material": "human",
+    "hex": "#d8b58a",
+    "dark": "#a8875f",
+    "price": 14900,
+    "image": "/public/images/wigs/bob-medium-brown-front.jpg",
+    "color": {
+      "cs": "Přirozená blond",
+      "en": "Natural blonde"
+    },
+    "cap": "lace",
+    "density": "150 %",
+    "weight": "130 g",
+    "hairLength": "55 cm",
+    "desc": {
+      "cs": "Středně dlouhá bob paruka z pravých evropských vlasů v přirozeném blond odstínu s hustou rovnou ofinou. Perfektně rovný střih krásně zvýrazní rysy obličeje a dodá šmrnc. Neviditelná lace front se dokonale přizpůsobí tónu pokožky.",
+      "en": "Medium-length bob wig made from real European hair in a natural blonde shade with thick straight bangs[cite: 4]. The perfectly straight cut beautifully highlights facial features and adds flair. The invisible lace front adapts seamlessly to skin tone."
+    },
+    "category": "women",
+    "images": [
+      "/public/images/wigs/bob-medium-brown-front.jpg",
+      "/public/images/wigs/bob-medium-brown.jpg"
+    ]
+  },
+
+  {
+    "id": 22,
+    "name": "Jon",
+    "category": "kids",
+    "length": "short",
+    "material": "synthetic",
+    "hex": "#3b2e27",
+    "dark": "#9a6f45",
+    "price": 4290,
+    "image": "/public/images/wigs/child-5-front.jpg",
+    "images": [
+      "/public/images/wigs/child-5-front.jpg",
+      "/public/images/wigs/child-5.jpg"
+    ],
+    "color": {
+      "cs": "Uhlově černá",
+      "en": "Jet black"
+    },
+    "cap": "soft",
+    "density": "100 %",
+    "weight": "95 g",
+    "hairLength": "30 cm",
+    "desc": {
+      "cs": "Měkká paruka pro děti po léčbě nebo s vypadáváním vlasů. Bavlněná podšívka bez švů je šetrná k citlivé pokožce.",
+      "en": "A soft wig for children after treatment or with hair loss. The seam-free cotton lining is gentle on sensitive skin."
+    },
+    "tag": "hit"
+  },
+
+  {
+    "id": 23,
+    "name": "Margaret",
+    "category": "kids",
+    "length": "short",
+    "material": "synthetic",
+    "hex": "#3b2e27",
+    "dark": "#9a6f45",
+    "price": 4290,
+    "image": "/public/images/wigs/child-6-front.jpg",
+    "images": [
+      "/public/images/wigs/child-6-front.jpg",
+      "/public/images/wigs/child-6.jpg"
+    ],
+    "color": {
+      "cs": "Uhlově černá",
+      "en": "Jet black"
+    },
+    "cap": "soft",
+    "density": "100 %",
+    "weight": "95 g",
+    "hairLength": "30 cm",
+    "desc": {
+      "cs": "Krátká elegantní paruka z pravých evropských vlasů v sytém uhlově černém odstínu. Zaoblený střih s jemnou ofinou krásně rámuje obličej a působí velmi šik. Kvalitní lace front zajišťuje naprosto přirozený vzhled v oblasti čela.",
+      "en": "Short elegant wig made from real European hair in a rich charcoal black shade. The rounded cut with soft bangs beautifully frames the face and offers a very chic appeal. The quality lace front ensures an entirely natural appearance around the hairline."
+    },
+    "tag": "hit"
+  },
+
+  {
+    "id": 24,
+    "name": "Tony",
+    "length": "mid",
+    "material": "human",
+    "hex": "#d8b58a",
+    "dark": "#a8875f",
+    "price": 14900,
+    "image": "/public/images/wigs/red-bob-front.jpg",
+    "color": {
+      "cs": "Měděná zrzavá",
+      "en": "Copper red"
+    },
+    "cap": "lace",
+    "density": "150 %",
+    "weight": "130 g",
+    "hairLength": "55 cm",
+    "desc": {
+      "cs": "Středně dlouhá bob paruka z pravých evropských vlasů v zářivém měděně zrzavém odstínu[cite: 5]. Rovný střih s hustou ofinou dodává účesu osobitý šarm a eleganci. Neviditelná lace front se dokonale přizpůsobuje tónu pokožky.",
+      "en": "Medium-length bob wig made from real European hair in a vibrant copper red shade[cite: 5]. The straight cut with thick bangs gives the hairstyle a distinct charm and elegance. The invisible lace front adapts seamlessly to the skin tone."
+    },
+    "category": "women",
+    "images": [
+      "/public/images/wigs/red-bob-front.jpg",
+      "/public/images/wigs/red-bob.jpg"
+    ]
+  },
+
+  {
+    "id": 25,
+    "name": "Mary",
+    "length": "short",
+    "material": "human",
+    "hex": "#d8b58a",
+    "dark": "#a8875f",
+    "price": 14900,
+    "image": "/public/images/wigs/curly-short-front.jpg",
+    "color": {
+      "cs": "Hnědá",
+      "en": "Brown"
+    },
+    "cap": "lace",
+    "density": "150 %",
+    "weight": "130 g",
+    "hairLength": "55 cm",
+    "desc": {
+      "cs": "Krátká kudrnatá paruka z pravých evropských vlasů v přirozeném hnědém odstínu[cite: 5]. Bohaté a nadýchané kadeře dodávají účesu hravost, texturu a mladistvý vzhled. Prodyšná konstrukce základu a lace front zaručují maximální pohodlí a přirozenost.",
+      "en": "Short curly wig made from real European hair in a natural brown shade[cite: 5]. Rich and bouncy curls add playfulness, texture, and a youthful look to the hairstyle. The breathable cap construction and lace front guarantee maximum comfort and naturalness."
+    },
+    "category": "women",
+    "images": [
+      "/public/images/wigs/curly-short-front.jpg",
+      "/public/images/wigs/curly-short.jpg"
+    ]
+  },
+
+  {
+    "id": 26,
+    "name": "Lucy",
+    "length": "long",
+    "material": "human",
+    "hex": "#ADD8E6",
+    "dark": "#a8875f",
+    "price": 14900,
+    "image": "/public/images/wigs/blue-long-front.jpg",
+    "color": {
+      "cs": "Kreativní",
+      "en": "Creative"
+    },
+    "cap": "lace",
+    "density": "150 %",
+    "weight": "130 g",
+    "hairLength": "55 cm",
+    "desc": {
+      "cs": "Dlouhá vlnitá paruka z pravých evropských vlasů v moderním a zářivém modrém odstínu[cite: 6]. Jemná lace front vytváří přirozenou linii čela a nenápadně splývá s pletí. Měkké vlnité prameny dodávají vzhledu osobitý, stylový a elegantní nádech.",
+      "en": "Long wavy wig made from real European hair in a modern and vibrant blue shade[cite: 6]. The delicate lace front creates a realistic hairline and blends seamlessly with the skin. Soft wavy strands add a distinctive, stylish, and elegant touch to the look."
+    },
+    "category": "women",
+    "images": [
+      "/public/images/wigs/blue-long-front.jpg",
+      "/public/images/wigs/blue-long.jpg"
+    ]
+  }
+]

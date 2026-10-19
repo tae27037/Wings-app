@@ -1,0 +1,39 @@
+.wrap { display: grid; gap: 20px; }
+.wrap h1 { font: 600 clamp(28px, 4vw, 40px) var(--font-display); letter-spacing: -0.03em; }
+.tabs { display: inline-flex; gap: 4px; padding: 4px; background: var(--panel); border: 1px solid var(--line); border-radius: var(--r-pill); justify-self: start; max-width: 100%; overflow-x: auto; }
+.tabs button { padding: 9px 22px; border: 0; border-radius: var(--r-pill); background: transparent; color: var(--muted); font-weight: 500; white-space: nowrap; }
+.tabs .on { background: var(--accent); color: var(--on-accent); font-weight: 600; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r-lg); padding: 26px; display: grid; gap: 12px; align-content: start; }
+.card h2 { font: 600 22px var(--font-display); }
+.card p { color: var(--muted); }
+.grow { grid-column: 1 / -1; background: radial-gradient(40rem 16rem at 100% 0, color-mix(in srgb, var(--rose) 26%, transparent), transparent), var(--panel); }
+.top { display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+.big { text-align: right; font-size: 20px; }
+.big strong { font: 700 64px/1 var(--font-display); letter-spacing: -0.04em; color: var(--accent); }
+.big span { display: block; color: var(--muted); font-size: 14px; }
+.ruler { position: relative; height: 18px; margin: 18px 0 44px; border-radius: 9px; background: repeating-linear-gradient(90deg, var(--line) 0 2px, transparent 2px 10px) var(--panel-2); }
+.ruler i { position: absolute; inset: 0 auto 0 0; border-radius: 9px; background: linear-gradient(90deg, var(--accent), var(--rose)); transition: width .6s; }
+.ruler span { position: absolute; top: 24px; transform: translateX(-100%); font-size: 12px; text-align: right; color: var(--muted); white-space: nowrap; }
+.ruler span small { display: block; }
+.ruler .reached { color: var(--text); font-weight: 600; }
+.next { color: var(--text) !important; font-weight: 600; }
+.balance { font-size: 14px; }
+.perks { list-style: none; padding: 0; display: grid; gap: 14px; }
+.perks li { display: flex; gap: 12px; color: var(--muted); }
+.perks small { display: block; font-size: 12px; }
+.perks .got { color: var(--text); }
+.perks .got b { color: var(--ok); }
+.code { display: flex; gap: 10px; align-items: center; }
+.code code { flex: 1; padding: 12px 16px; border-radius: var(--r-md); border: 1px dashed var(--accent); background: var(--panel-2); font-size: 18px; letter-spacing: .08em; }
+.code button, .save, .empty button { padding: 12px 22px; border-radius: var(--r-pill); border: 0; background: var(--accent); color: var(--on-accent); font-weight: 600; }
+.orders { display: grid; gap: 14px; }
+.orders header, .orders footer { display: flex; justify-content: space-between; align-items: center; }
+.orders time { color: var(--muted); font-size: 14px; }
+.earn { color: var(--ok); font-weight: 600; }
+.empty { display: grid; gap: 12px; justify-items: start; color: var(--muted); padding: 24px 0; }
+.form { max-width: 480px; }
+.form label { display: grid; gap: 6px; font-size: 13px; color: var(--muted); }
+.form input { padding: 12px 14px; border-radius: var(--r-md); border: 1px solid var(--line); background: var(--panel-2); color: var(--text); }
+.ok { color: var(--ok); margin-left: 10px; }
+@media (max-width: 760px) { .grid { grid-template-columns: 1fr; } .big { text-align: left; } }

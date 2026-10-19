@@ -1,0 +1,4 @@
+.app { max-width: 1320px; margin: 0 auto; padding: 28px 20px 0; }
+.h1 { font: 600 30px var(--font-display); margin-bottom: 16px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 16px; }
+.muted { color: var(--muted); }

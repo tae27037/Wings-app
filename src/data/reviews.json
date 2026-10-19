@@ -1,0 +1,613 @@
+[
+  {
+    "productId": 1,
+    "name": "Petra K.",
+    "rating": 5,
+    "date": "2026-09-12",
+    "text": {
+      "cs": "Je to nejpřirozeněji vypadající paruka, jakou jsem měla. Lace front se na kůži úplně ztratil.",
+      "en": "The most natural-looking wig I have owned. The lace front disappears into my skin."
+    }
+  },
+  {
+    "productId": 1,
+    "name": "Jana M.",
+    "rating": 5,
+    "date": "2026-08-03",
+    "text": {
+      "cs": "Barva přesně odpovídá fotkám. Zkouška doma mi pomohla se rozhodnout.",
+      "en": "The colour matches the photos exactly. The home try-on helped me decide."
+    }
+  },
+  {
+    "productId": 2,
+    "name": "Lucie D.",
+    "rating": 5,
+    "date": "2026-09-20",
+    "text": {
+      "cs": "Vlny drží celý den a paruka je překvapivě lehká.",
+      "en": "The waves last all day and the wig is surprisingly light."
+    }
+  },
+  {
+    "productId": 2,
+    "name": "Emma R.",
+    "rating": 4,
+    "date": "2026-07-28",
+    "text": {
+      "cs": "Nádherná kvalita, jen jsem musela zkrátit pásku na míru.",
+      "en": "Beautiful quality, I only had to shorten the strap to fit."
+    }
+  },
+  {
+    "productId": 3,
+    "name": "Tereza H.",
+    "rating": 4,
+    "date": "2026-09-02",
+    "text": {
+      "cs": "Za tu cenu skvělý poměr. Barva je opravdu zářivá.",
+      "en": "Great value for the price. The colour is really vibrant."
+    }
+  },
+  {
+    "productId": 4,
+    "name": "Sophie L.",
+    "rating": 5,
+    "date": "2026-08-19",
+    "text": {
+      "cs": "Platinová bez žlutého nádechu, přesně jak jsem chtěla.",
+      "en": "Platinum with no yellow tint, exactly what I wanted."
+    }
+  },
+  {
+    "productId": 5,
+    "name": "Kateřina B.",
+    "rating": 5,
+    "date": "2026-09-27",
+    "text": {
+      "cs": "Ráno ji nasadím a hotovo. Ofina padne bez úprav.",
+      "en": "I put it on in the morning and I am done. The fringe sits perfectly without styling."
+    }
+  },
+  {
+    "productId": 6,
+    "name": "Martina S.",
+    "rating": 5,
+    "date": "2026-08-11",
+    "text": {
+      "cs": "Pravé vlasy se krásně stylují, kulma žádný problém.",
+      "en": "Real hair styles beautifully, a curling iron is no problem."
+    }
+  },
+  {
+    "productId": 7,
+    "name": "Anna V.",
+    "rating": 4,
+    "date": "2026-09-08",
+    "text": {
+      "cs": "Barva je úžasná, doporučuji kartáč na paruky, aby se vlasy nepletly.",
+      "en": "The colour is amazing; I recommend a wig brush to keep it tangle-free."
+    }
+  },
+  {
+    "productId": 8,
+    "name": "Michaela P.",
+    "rating": 5,
+    "date": "2026-09-15",
+    "text": {
+      "cs": "Melíry vypadají jako moje vlastní. Dostala jsem spoustu komplimentů.",
+      "en": "The highlights look like my own hair. I got so many compliments."
+    }
+  },
+  {
+    "productId": 9,
+    "name": "Tomáš R.",
+    "rating": 5,
+    "date": "2026-09-18",
+    "text": {
+      "cs": "Vypadá přirozeně, kolegové si ničeho nevšimli.",
+      "en": "It looks natural, my colleagues noticed nothing."
+    }
+  },
+  {
+    "productId": 11,
+    "name": "Eva N.",
+    "rating": 5,
+    "date": "2026-09-25",
+    "text": {
+      "cs": "Dcera si ji oblíbila hned první den. Podšívka je opravdu měkká a nedráždí.",
+      "en": "My daughter loved it from day one. The lining is truly soft and does not irritate."
+    }
+  },
+  {
+    "productId": 12,
+    "name": "Lenka J.",
+    "rating": 5,
+    "date": "2026-09-30",
+    "text": {
+      "cs": "Syn ji nosí rád i ve škole. Pásky se dají snadno upravit.",
+      "en": "My son happily wears it to school. The straps are easy to adjust."
+    }
+  },
+
+  {
+    "productId": 3,
+    "name": "Veronika P.",
+    "rating": 5,
+    "date": "2026-08-14",
+    "text": {
+      "cs": "Popelavý odstín vypadá velmi přirozeně a střih mi krásně rámuje obličej.",
+      "en": "The ash shade looks very natural, and the cut frames my face beautifully."
+    }
+  },
+  {
+    "productId": 3,
+    "name": "Monika F.",
+    "rating": 5,
+    "date": "2026-07-19",
+    "text": {
+      "cs": "Vlasy jsou hebké a kvalitní. Paruka vypadá elegantně i bez složité úpravy.",
+      "en": "The hair feels soft and high-quality. The wig looks elegant even without complicated styling."
+    }
+  },
+  {
+    "productId": 4,
+    "name": "Nikol S.",
+    "rating": 5,
+    "date": "2026-09-05",
+    "text": {
+      "cs": "Krásné dlouhé vlny a sytá čokoládová barva. Paruka působí velmi přirozeně.",
+      "en": "Beautiful long waves and a rich chocolate shade. The wig looks very natural."
+    }
+  },
+  {
+    "productId": 4,
+    "name": "Alena T.",
+    "rating": 4,
+    "date": "2026-08-22",
+    "text": {
+      "cs": "Vlasy mají pěkný objem a paruka dobře sedí. Po delším nošení je potřeba vlasy pročesat.",
+      "en": "The hair has lovely volume and the wig fits well. After longer wear, the hair needs brushing."
+    }
+  },
+  {
+    "productId": 5,
+    "name": "Klára V.",
+    "rating": 5,
+    "date": "2026-09-21",
+    "text": {
+      "cs": "Platinová blond je nádherná a dlouhé rovné vlasy vypadají opravdu efektně.",
+      "en": "The platinum blonde is gorgeous, and the long straight hair looks stunning."
+    }
+  },
+  {
+    "productId": 5,
+    "name": "Barbora L.",
+    "rating": 4,
+    "date": "2026-08-07",
+    "text": {
+      "cs": "Příjemně mě překvapila délka i hustota. Na každodenní nošení je trochu těžší.",
+      "en": "I was pleasantly surprised by the length and density. It feels a little heavy for everyday wear."
+    }
+  },
+  {
+    "productId": 6,
+    "name": "Petra H.",
+    "rating": 5,
+    "date": "2026-09-11",
+    "text": {
+      "cs": "Černé mikádo je přesně podle mých představ. Ráno ho stačí nasadit a můžu vyrazit.",
+      "en": "The black bob is exactly what I wanted. I can put it on in the morning and head out."
+    }
+  },
+  {
+    "productId": 6,
+    "name": "Andrea K.",
+    "rating": 4,
+    "date": "2026-07-30",
+    "text": {
+      "cs": "Pěkný střih a dobrá cena. Vlasy si občas upravím prsty, aby držely požadovaný tvar.",
+      "en": "A nice cut at a good price. I occasionally reshape the hair with my fingers to keep the style."
+    }
+  },
+  {
+    "productId": 7,
+    "name": "Martin B.",
+    "rating": 5,
+    "date": "2026-09-23",
+    "text": {
+      "cs": "Kaštanová barva působí přirozeně a délka mi vyhovuje. S výsledkem jsem spokojený.",
+      "en": "The chestnut colour looks natural, and the length suits me. I'm happy with the result."
+    }
+  },
+  {
+    "productId": 7,
+    "name": "David P.",
+    "rating": 4,
+    "date": "2026-08-16",
+    "text": {
+      "cs": "Dobře sedí a vlasy mají pěknou strukturu. Chvíli mi trvalo, než jsem našel ideální úpravu.",
+      "en": "It fits well and the hair has a nice texture. It took me a little while to find my ideal style."
+    }
+  },
+  {
+    "productId": 8,
+    "name": "Tereza M.",
+    "rating": 5,
+    "date": "2026-09-28",
+    "text": {
+      "cs": "Růžový odstín je krásný a na světle má jemný lesk. Ideální pro výraznější vzhled.",
+      "en": "The pink shade is beautiful and has a subtle shine in the light. Perfect for a bolder look."
+    }
+  },
+  {
+    "productId": 8,
+    "name": "Nikola C.",
+    "rating": 4,
+    "date": "2026-08-25",
+    "text": {
+      "cs": "Barva je přesně tak hravá, jak jsem chtěla. Na focení a speciální příležitosti skvělá volba.",
+      "en": "The colour is just as playful as I wanted. A great choice for photos and special occasions."
+    }
+  },
+  {
+    "productId": 9,
+    "name": "Pavel K.",
+    "rating": 5,
+    "date": "2026-09-29",
+    "text": {
+      "cs": "Lehká konstrukce a přirozená barva. Účes nevypadá uměle ani zblízka.",
+      "en": "Lightweight construction and a natural colour. The hairstyle doesn't look artificial, even up close."
+    }
+  },
+  {
+    "productId": 9,
+    "name": "Michal D.",
+    "rating": 4,
+    "date": "2026-08-09",
+    "text": {
+      "cs": "Dobře se nosí a snadno se upravuje. Ocenil bych jen trochu větší výběr velikostí.",
+      "en": "It's comfortable to wear and easy to style. I would just appreciate a wider choice of sizes."
+    }
+  },
+  {
+    "productId": 10,
+    "name": "Radek S.",
+    "rating": 5,
+    "date": "2026-09-17",
+    "text": {
+      "cs": "Stříbrošedá barva vypadá moderně a střih je velmi praktický. Za mě povedený produkt.",
+      "en": "The silver-grey colour looks modern, and the cut is very practical. A great product in my opinion."
+    }
+  },
+  {
+    "productId": 10,
+    "name": "Ondřej V.",
+    "rating": 4,
+    "date": "2026-07-24",
+    "text": {
+      "cs": "Paruka je lehká a pohodlná. Barva je trochu výraznější než na mém monitoru.",
+      "en": "The wig is lightweight and comfortable. The colour is a little more vivid than it appeared on my monitor."
+    }
+  },
+  {
+    "productId": 11,
+    "name": "Hana P.",
+    "rating": 5,
+    "date": "2026-09-14",
+    "text": {
+      "cs": "Měkká podšívka je příjemná a dcera si paruku ráda sama nasazuje.",
+      "en": "The soft lining feels comfortable, and my daughter likes putting the wig on herself."
+    }
+  },
+  {
+    "productId": 11,
+    "name": "Petra N.",
+    "rating": 5,
+    "date": "2026-08-02",
+    "text": {
+      "cs": "Pěkný přirozený odstín a nízká hmotnost. Pro naši rodinu to byla dobrá volba.",
+      "en": "A lovely natural shade and low weight. It was a good choice for our family."
+    }
+  },
+  {
+    "productId": 12,
+    "name": "Marek J.",
+    "rating": 5,
+    "date": "2026-09-19",
+    "text": {
+      "cs": "Synovi dobře sedí a při běžném pohybu drží na místě. Oceňuji jednoduché nastavení.",
+      "en": "It fits my son well and stays in place during normal activity. I appreciate the easy adjustment."
+    }
+  },
+  {
+    "productId": 12,
+    "name": "Jitka R.",
+    "rating": 4,
+    "date": "2026-08-18",
+    "text": {
+      "cs": "Lehká a příjemná paruka. Uvítala bych ještě jednu tmavší barevnou variantu.",
+      "en": "A lightweight and comfortable wig. I would welcome another, darker colour option."
+    }
+  },
+  {
+    "productId": 13,
+    "name": "Veronika L.",
+    "rating": 5,
+    "date": "2026-09-26",
+    "text": {
+      "cs": "Kudrny mají krásný objem a blond odstín působí přirozeně. Výsledek předčil moje očekávání.",
+      "en": "The curls have beautiful volume, and the blonde shade looks natural. The result exceeded my expectations."
+    }
+  },
+  {
+    "productId": 13,
+    "name": "Denisa W.",
+    "rating": 5,
+    "date": "2026-08-12",
+    "text": {
+      "cs": "Velmi elegantní vzhled a pěkně zpracovaná přední linie. Cítím se v ní skvěle.",
+      "en": "A very elegant look with a beautifully finished hairline. I feel great wearing it."
+    }
+  },
+  {
+    "productId": 14,
+    "name": "Filip T.",
+    "rating": 5,
+    "date": "2026-09-10",
+    "text": {
+      "cs": "Jednoduchý střih, který se hodí ke všemu. Vlasy vypadají přirozeně a dobře drží tvar.",
+      "en": "A simple cut that goes with everything. The hair looks natural and holds its shape well."
+    }
+  },
+  {
+    "productId": 14,
+    "name": "Karel M.",
+    "rating": 4,
+    "date": "2026-08-05",
+    "text": {
+      "cs": "Kvalita odpovídá očekávání a paruka je nenápadná. Chce to jen trochu cviku při nasazování.",
+      "en": "The quality meets expectations, and the wig is discreet. It just takes a little practice to put on."
+    }
+  },
+  {
+    "productId": 15,
+    "name": "Ivana B.",
+    "rating": 5,
+    "date": "2026-09-07",
+    "text": {
+      "cs": "Barva je teplá a přirozená, vlasy jsou příjemně měkké. Dcera ji nosí velmi ráda.",
+      "en": "The colour is warm and natural, and the hair feels lovely and soft. My daughter loves wearing it."
+    }
+  },
+  {
+    "productId": 15,
+    "name": "Marie E.",
+    "rating": 4,
+    "date": "2026-07-26",
+    "text": {
+      "cs": "Pěkné zpracování a pohodlná podšívka. Ocenila bych podrobnější návod k péči.",
+      "en": "Nice workmanship and a comfortable lining. I would appreciate more detailed care instructions."
+    }
+  },
+  {
+    "productId": 16,
+    "name": "Lukáš F.",
+    "rating": 5,
+    "date": "2026-09-24",
+    "text": {
+      "cs": "Účes působí nenuceně a vlasy nejsou příliš lesklé. Přesně takový přirozený vzhled jsem hledal.",
+      "en": "The hairstyle looks effortless, and the hair isn't overly shiny. Exactly the natural look I was after."
+    }
+  },
+  {
+    "productId": 16,
+    "name": "Roman C.",
+    "rating": 4,
+    "date": "2026-08-13",
+    "text": {
+      "cs": "Dobře se kombinuje s běžným oblečením a pohodlně se nosí. Celkově dobrá zkušenost.",
+      "en": "It works well with everyday clothing and feels comfortable to wear. Overall, a good experience."
+    }
+  },
+  {
+    "productId": 17,
+    "name": "Jakub H.",
+    "rating": 5,
+    "date": "2026-09-16",
+    "text": {
+      "cs": "Krátké kudrny vypadají přirozeně a účes má pěkný objem. Jsem velmi spokojený.",
+      "en": "The short curls look natural, and the hairstyle has lovely volume. I'm very satisfied."
+    }
+  },
+  {
+    "productId": 17,
+    "name": "Daniel N.",
+    "rating": 4,
+    "date": "2026-08-21",
+    "text": {
+      "cs": "Příjemný materiál a dobrý střih. Pro nejlepší výsledek je potřeba kudrny občas upravit.",
+      "en": "Comfortable material and a good cut. The curls need occasional adjustment for the best result."
+    }
+  },
+  {
+    "productId": 18,
+    "name": "Petr D.",
+    "rating": 5,
+    "date": "2026-09-13",
+    "text": {
+      "cs": "Klasický účes, který nepoutá zbytečnou pozornost. Oceňuji přirozený vzhled a pohodlí.",
+      "en": "A classic hairstyle that doesn't draw unnecessary attention. I appreciate the natural look and comfort."
+    }
+  },
+  {
+    "productId": 18,
+    "name": "Václav P.",
+    "rating": 4,
+    "date": "2026-07-31",
+    "text": {
+      "cs": "Střih je univerzální a snadno se nosí. Chvíli trvalo, než jsem se naučil správně ji nasazovat.",
+      "en": "The cut is versatile and easy to wear. It took a little time to learn how to put it on properly."
+    }
+  },
+  {
+    "productId": 19,
+    "name": "Simona K.",
+    "rating": 5,
+    "date": "2026-09-22",
+    "text": {
+      "cs": "Šampaňský odstín je jemný a elegantní. Dlouhé vlny vypadají krásně i při denním světle.",
+      "en": "The champagne shade is soft and elegant. The long waves look beautiful even in daylight."
+    }
+  },
+  {
+    "productId": 19,
+    "name": "Kristýna A.",
+    "rating": 4,
+    "date": "2026-08-10",
+    "text": {
+      "cs": "Moc hezká barva a přirozený pohyb vlasů. Na údržbu je potřeba vyhradit trochu času.",
+      "en": "A lovely colour and natural hair movement. You need to set aside a little time for maintenance."
+    }
+  },
+  {
+    "productId": 20,
+    "name": "Renata O.",
+    "rating": 5,
+    "date": "2026-09-06",
+    "text": {
+      "cs": "Příjemně měkká a lehká. Dítě si ji oblíbilo a dobře snáší i delší nošení.",
+      "en": "Pleasantly soft and lightweight. My child likes it and tolerates wearing it for longer periods."
+    }
+  },
+  {
+    "productId": 20,
+    "name": "Alžběta G.",
+    "rating": 4,
+    "date": "2026-08-01",
+    "text": {
+      "cs": "Přirozená barva a jednoduchá údržba. Ocenila bych více fotografií z různých úhlů.",
+      "en": "A natural colour and easy maintenance. I would appreciate more photos from different angles."
+    }
+  },
+  {
+    "productId": 21,
+    "name": "Natalie Z.",
+    "rating": 5,
+    "date": "2026-09-04",
+    "text": {
+      "cs": "Odstín moka je krásně sytý a vlny působí elegantně. Paruka se hodí na běžné nošení i na oslavy.",
+      "en": "The mocha shade is beautifully rich, and the waves look elegant. The wig works for everyday wear and celebrations."
+    }
+  },
+  {
+    "productId": 21,
+    "name": "Eliška R.",
+    "rating": 4,
+    "date": "2026-07-22",
+    "text": {
+      "cs": "Pěkný přirozený vzhled a dobrý objem. Po rozbalení jsem vlasy musela trochu upravit.",
+      "en": "A lovely natural look and good volume. I had to adjust the hair a little after unpacking."
+    }
+  },
+  {
+    "productId": 22,
+    "name": "Šárka M.",
+    "rating": 5,
+    "date": "2026-09-09",
+    "text": {
+      "cs": "Roztomilé mikádo s ofinou, které dceři krásně sedí. Vlasy vypadají přirozeně.",
+      "en": "An adorable bob with a fringe that suits my daughter beautifully. The hair looks natural."
+    }
+  },
+  {
+    "productId": 22,
+    "name": "Dana V.",
+    "rating": 4,
+    "date": "2026-08-17",
+    "text": {
+      "cs": "Lehká a pohodlná, navíc se snadno upravuje. Barva odpovídá našemu očekávání.",
+      "en": "Lightweight and comfortable, and easy to adjust. The colour matches our expectations."
+    }
+  },
+  {
+    "productId": 23,
+    "name": "Michaela T.",
+    "rating": 5,
+    "date": "2026-09-03",
+    "text": {
+      "cs": "Jemné vlny vypadají krásně a účes není příliš objemný. Velmi příjemné překvapení.",
+      "en": "The soft waves look lovely, and the hairstyle isn't too voluminous. A very pleasant surprise."
+    }
+  },
+  {
+    "productId": 23,
+    "name": "Blanka J.",
+    "rating": 4,
+    "date": "2026-07-29",
+    "text": {
+      "cs": "Pěkný odstín a měkký materiál. Pro citlivou pokožku je pohodlná.",
+      "en": "A nice shade and soft material. It's comfortable for sensitive skin."
+    }
+  },
+  {
+    "productId": 24,
+    "name": "Karolína D.",
+    "rating": 5,
+    "date": "2026-09-30",
+    "text": {
+      "cs": "Měděná barva je nádherná a krásně vynikne na slunci. Dostala jsem přesně výrazný vzhled, který jsem chtěla.",
+      "en": "The copper colour is gorgeous and really stands out in the sun. I got exactly the bold look I wanted."
+    }
+  },
+  {
+    "productId": 24,
+    "name": "Viktorie S.",
+    "rating": 4,
+    "date": "2026-08-20",
+    "text": {
+      "cs": "Originální barva a hezký tvar vln. Na slavnostní příležitosti je skvělá.",
+      "en": "An original colour and a lovely wave pattern. It's great for special occasions."
+    }
+  },
+  {
+    "productId": 25,
+    "name": "Gabriela N.",
+    "rating": 5,
+    "date": "2026-09-01",
+    "text": {
+      "cs": "Vínový odstín působí luxusně a kudrny mají krásný tvar. Paruka je opravdu výrazná.",
+      "en": "The burgundy shade looks luxurious, and the curls have a beautiful shape. The wig is truly striking."
+    }
+  },
+  {
+    "productId": 25,
+    "name": "Zuzana F.",
+    "rating": 4,
+    "date": "2026-08-06",
+    "text": {
+      "cs": "Barva je ještě hezčí naživo. Vlasy potřebují občas jemně pročesat, ale výsledek stojí za to.",
+      "en": "The colour is even prettier in person. The hair needs gentle brushing occasionally, but the result is worth it."
+    }
+  },
+  {
+    "productId": 26,
+    "name": "Adéla P.",
+    "rating": 5,
+    "date": "2026-09-19",
+    "text": {
+      "cs": "Modrá barva je nádherně výrazná a dlouhé vlasy se krásně pohybují. Ideální na cosplay.",
+      "en": "The blue colour is beautifully vibrant, and the long hair moves wonderfully. Perfect for cosplay."
+    }
+  },
+  {
+    "productId": 26,
+    "name": "Nela B.",
+    "rating": 4,
+    "date": "2026-08-15",
+    "text": {
+      "cs": "Skvělá volba pro kreativní účesy a focení. Barva je výrazná a snadno se kombinuje s kostýmy.",
+      "en": "A great choice for creative hairstyles and photoshoots. The colour is bold and easy to pair with costumes."
+    }
+  }
+]

@@ -1,0 +1,146 @@
+.footer {
+  margin-top: 64px;
+  background: var(--panel);
+  border-top: 1px solid var(--line);
+}
+.cols,
+.controls,
+.copy {
+  padding-inline: max(20px, calc((100% - 1280px) / 2));
+}
+.cols {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr 1fr 1fr;
+  gap: 32px;
+  padding-block: 48px;
+}
+.cols h3 {
+  font: 600 22px var(--font-display);
+  margin-bottom: 18px;
+}
+.cols ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+}
+.cols a,
+.cols button {
+  color: var(--text);
+  text-decoration: none;
+  background: none;
+  border: 0;
+  padding: 0;
+  font-size: 16px;
+}
+.cols a:hover,
+.cols button:hover {
+  color: var(--accent);
+}
+.pay li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+.cards b {
+  padding: 8px 12px;
+  border-radius: 6px;
+  background: #111;
+  color: #fff;
+  font-size: 12px;
+}
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-block: 20px;
+  border-top: 1px solid var(--line);
+}
+.social {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.social a {
+  padding: 8px 16px;
+  border-radius: var(--r-pill);
+  border: 1px solid var(--line);
+  color: var(--text);
+  text-decoration: none;
+  font-size: 14px;
+}
+.social a:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.copy {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding-block: 18px;
+  background: var(--bg);
+  color: var(--muted);
+  font-size: 14px;
+}
+.copy strong {
+  color: var(--text);
+}
+.top {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 20;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  font-size: 22px;
+}
+/* @media (max-width: 860px) {
+  .cols {
+    grid-template-columns: 1fr 1fr;
+  }
+} */
+@media (max-width: 520px) {
+  .cols {
+    grid-template-columns: 1fr;
+  }
+}
+
+.top {
+  bottom: 96px;
+}
+
+@media (min-width: 861px) {
+  /* четыре равные колонки, каждая по центру своей четверти */
+  .cols {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    justify-items: center;
+  }
+  .cols > section {
+    width: 100%;
+    max-width: 240px;
+  }
+
+  /* нижние строки по центру */
+  /* .controls {
+    justify-content: center;
+    gap: 24px 80px;
+  } */
+  /* .copy {
+    justify-content: center;
+    text-align: center;
+    gap: 8px 40px;
+  } */
+}

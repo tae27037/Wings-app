@@ -1,0 +1,10 @@
+{
+  "appId": "com.maisonwigs.app",
+  "appName": "Maison Wigs",
+  "webDir": "dist",
+  "backgroundColor": "#141318",
+  "android": {
+    "backgroundColor": "#141318",
+    "allowMixedContent": false
+  }
+}

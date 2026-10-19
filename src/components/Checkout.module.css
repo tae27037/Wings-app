@@ -1,0 +1,29 @@
+.layout { display: grid; grid-template-columns: 1fr 360px; gap: 20px; align-items: start; }
+.main { display: grid; gap: 16px; }
+.main h1, .done h1 { font: 500 30px var(--font-display); }
+.back { justify-self: start; background: none; border: 0; color: var(--muted); }
+.card { background: var(--panel); border-radius: var(--r-lg); padding: 22px; display: grid; gap: 14px; }
+.card h2, .summary h2 { font: 500 21px var(--font-display); }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.field { display: grid; gap: 6px; font-size: 13px; color: var(--muted); }
+.field input, .field select { padding: 12px 14px; border-radius: var(--r-md); border: 1px solid var(--line); background: var(--panel-2); color: var(--text); }
+.field input:focus, .field select:focus { border-color: var(--accent); outline: none; }
+.field input[aria-invalid='true'] { border-color: var(--rose); }
+.field em, .terms em { color: var(--rose); font-style: normal; font-size: 12px; }
+.opts { display: grid; gap: 8px; }
+.opt { display: flex; gap: 12px; align-items: center; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--r-md); cursor: pointer; }
+.opt input { accent-color: var(--accent); }
+.opt span { display: grid; }
+.opt small { color: var(--muted); }
+.sel { border-color: var(--accent); background: var(--panel-2); }
+.summary { background: var(--panel); border-radius: var(--r-lg); padding: 22px; display: grid; gap: 10px; position: sticky; top: 84px; }
+.item { display: flex; justify-content: space-between; gap: 12px; font-size: 14px; color: var(--muted); }
+.total { color: var(--text); font-size: 18px; padding-top: 10px; border-top: 1px solid var(--line); }
+.terms { display: flex; gap: 10px; font-size: 13px; color: var(--muted); align-items: flex-start; }
+.terms input { accent-color: var(--accent); margin-top: 3px; }
+.cta { padding: 14px 28px; border-radius: var(--r-pill); border: 0; background: var(--accent); color: var(--on-accent); font-weight: 600; }
+.done { display: grid; gap: 10px; justify-items: center; text-align: center; padding: 60px 0; color: var(--muted); }
+.done strong { color: var(--text); }
+.check { width: 64px; height: 64px; border-radius: 50%; background: var(--ok); color: #fff; display: grid; place-items: center; font-size: 30px; }
+.sum { font-size: 18px; }
+@media (max-width: 860px) { .layout { grid-template-columns: 1fr; } .grid { grid-template-columns: 1fr; } .summary { position: static; } }
